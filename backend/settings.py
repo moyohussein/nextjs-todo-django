@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '^jv736r-y^w(4)m1x&*j&ee7w^c_n0xt##w7p
 DEBUG = True
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com', 'https://nextjs-backend-todo.herokuapp.com']
 
 WHITENOISE_USE_FINDERS = True
 # Application definition
